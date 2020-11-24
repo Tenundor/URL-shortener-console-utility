@@ -33,7 +33,7 @@ def count_clicks(token, link):
 
 if __name__ == "__main__":
     load_dotenv()
-    token = os.getenv("BITLY_FREE_TOKEN")
+    token = os.getenv("BITLY_TOKEN")
     parser = argparse.ArgumentParser(
       description='Утилита сокращает ссылки и считает суммарное количество кликов по ним'
     )
