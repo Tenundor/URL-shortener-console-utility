@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 Запустите `main.py`, передав в качестве параметра ссылку, которую необходимо укоротить, или битлинк:
 ```shell script
-python main.py http://somthing.com
+python main.py http://something.com
 ```
 ### Цель проекта
 
